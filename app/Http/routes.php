@@ -9,6 +9,16 @@
 | It's a breeze. Simply tell Laravel the URIs it should respond to
 | and give it the controller to call when that URI is requested.
 |
+git init
+$ git add .
+git status
+$ git commit -m "Funcionalidades del Administrador"
+$ git config --global user.email "ebasteb7_04@hotmail.com"
+$ git config --global user.name "María Betsabé Mora Medina"
+
+git remote add origin https://github.com/MaryBeth0704/TT09-SACRV-Mora.git
+git push -u origin master
+git remote rm origin
 */
 
 Route::get('/','Principal@index');
